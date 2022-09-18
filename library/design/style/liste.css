@@ -1,0 +1,69 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    background-image: url(./Texture_Book_500852.jpg);
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: rgba(82, 79, 79, 0.676);
+}
+
+.inner_header{
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+
+.logo{
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Times New Roman';
+    font-size: 32px;
+    font-weight: 150;
+
+}
+
+.logo h1 span{
+    font-weight: 800;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a{
+    padding-right: 0px;
+}
+
+
+.navigation a li{
+    display: table-cell;
+    height: 100%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+
+}
